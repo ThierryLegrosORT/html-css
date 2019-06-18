@@ -1,0 +1,8 @@
+
+        header li {
+            display: inline-block
+        }
+    h3, p + p{
+        color: red;
+        padding: 10px
+    }

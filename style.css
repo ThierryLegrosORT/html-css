@@ -39,6 +39,11 @@ body{
     background: purple;
 
 }
-.bef::before{
-    content: "ok ";
+.bef::after{
+    /* display: inline; est implicite dans le after ou le before */
+    display: block;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: coral;
 }

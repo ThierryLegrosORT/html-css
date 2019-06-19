@@ -12,5 +12,8 @@
     color: red
 }
 #circle {
-    
+    border-radius: 25%;
+    height: 100px;
+    width: 100px;
+    background: blue;
 }

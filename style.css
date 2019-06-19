@@ -37,6 +37,9 @@ body{
     width: 116px;
     height: 100px;
     background: purple;
+    position: relative;
+    top: 90px;
+    left: 20px;
 
 }
 .bef::after{

@@ -1,10 +1,12 @@
-
+body{
+    margin: 0;
+}
         header li {
             display: inline-block
         }
     h3, p + p{
         color: red;
-        padding: 10px
+        padding: 10px;
     }
 #square {
     height: 100px;
@@ -16,4 +18,27 @@
     height: 100px;
     width: 100px;
     background: blue;
+}
+#triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+#reverse{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid yellow
+}
+#infinity{
+    width: 116px;
+    height: 100px;
+    background: purple;
+
+}
+.bef::before{
+    content: "ok ";
 }

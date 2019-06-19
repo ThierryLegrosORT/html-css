@@ -36,21 +36,28 @@ body{
 #infinity{
     width: 116px;
     height: 100px;
-    background: purple;
+    /* background: purple; */
     position: relative;
 }
+#infinity:before,
 #infinity:after{
     /* display: inline; est implicite dans le after ou le before */
     display: block;
     content: "";
     width: 60px;
     height: 60px;
-    background: coral;
+    /* background: coral; */
     border: 20px solid red;
     /* border-top-left-radius: 50px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 50px; */
     border-radius: 50px 50px 0 50px;
     transform: rotate(-45deg);
+}
+#infinity:after{
+    position: absolute;
+    top:0;
+    left:110px;
+    transform: rotate(135deg);
 }
 
